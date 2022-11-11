@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  src: link href= "https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap"
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  src: link href= "https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap"
+}
+
+html,
+body {
+  color: #333;
+  line-height: 1;
+  font-size: 14px;
+  font-family: 'Sora', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

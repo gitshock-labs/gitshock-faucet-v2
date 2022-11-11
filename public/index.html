@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gitshock Chain testnet faucet</title>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/application.css">
+  <link rel="apple-touch-icon" href="./favicons/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicons/favicon-192x192.png">
+  <link rel="mask-icon" color="#6151cc" href="./favicons/safari-pinned-tab.svg">
+  <link rel="manifest" href="./favicons/manifest.webmanifest">
+  <link href="./favicons/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/new.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body>
+  <section class="content">
+    <form action="/" method="POST" id="faucetForm">
+      <div class="request-tokens" style="width:430px;">
+        <img src="./assets/images/logo-with-text.svg" alt="logo">
+        <h1 class="title">Gitshock Chain testnet faucet</h1>
+        <div class="input-area">
+          <input type="text" id="receiver" name="receiver" placeholder="Enter your address here to receive GTFX" />
+          <select name="tokens" id="tokenList">
+          </select>
+        </div>
+        <h2 class="mark">
+          Please use <a href="https://rpc-testnet.gitshock.com/pasai">https://rpc-testnet.gitshock.com/pasai</a> RPC to connect<br>
+          to the Gitshock Chain testnet.
+        </h2>
+        <h2 class="mark">
+          Claim 1 GTFX / 3 hours. Do not spam! Otherwise, your IP will get banned.
+        </h2>
+        <div class="text-xs-center">
+          <div class="g-recaptcha" data-sitekey="6LcyCPsiAAAAAMhNGyyJsAEk7Bu5lWTGPgbC0y1n"></div>
+        </div>
+        <div class="button-faucet">
+          <button type="submit" id="requestTokens" style="width:430px" class="request-tokens-button">Request 1
+            GTFX</button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <div class="loading-container hidden">
+    <div class="loading">
+      <div class="loading-i"></div>
+      <div class="loading-i"></div>
+      <div class="loading-i"></div>
+      <div class="loading-i"></div>
+      <div class="loading-i"></div>
+      <div class="loading-i"></div>
+    </div>
+  </div>
+
+  <script src="./assets/javascripts/application.js?v=1.4" type="text/javascript"></script>
+
+</body>
+
+</html>
