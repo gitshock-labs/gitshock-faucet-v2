@@ -1,5 +1,6 @@
 # GTFX TESTNET Faucet
-### Building from source
+### Building from source 
+Based KCC Faucet & POA Network 
 
 1. Clone repository
 2. Update config.json `./config.json` (see config.json with placeholders below)
